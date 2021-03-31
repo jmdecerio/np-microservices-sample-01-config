@@ -29,6 +29,7 @@ eureka:
     healthcheck:
       enabled: true
   instance:
+    preferIpAddress: true
     leaseRenewalIntervalInSeconds: 1
     leaseExpirationDurationInSeconds: 2
 hystrix:
